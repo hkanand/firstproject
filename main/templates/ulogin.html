@@ -1,0 +1,13 @@
+   </head>
+        <body>
+           <b> Userlogin Form</b>
+           <br>
+           <br>
+           <form action="" method = "POST">
+           	     {%  csrf_token  %}
+
+           	    {{ UserLoginForm.as_p }}
+           	    <button type ="submit">Submit</button>
+           	</form>
+            </body>
+    </html>

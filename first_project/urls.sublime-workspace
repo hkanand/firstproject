@@ -1,0 +1,189 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"su",
+				"Sucessfully"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 150.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/harmeet/dzangoserver/first_project/main/models.py",
+		"/home/harmeet/dzangoserver/first_project/main/tests.py",
+		"/home/harmeet/dzangoserver/first_project/main/urls.py",
+		"/home/harmeet/dzangoserver/first_project/main/views.py",
+		"/home/harmeet/dzangoserver/first_project/main/templates/views.py",
+		"/home/harmeet/dzangoserver/first_project/main/templates/login.html",
+		"/home/harmeet/dzangoserver/first_project/main/forms.py",
+		"/home/harmeet/dzangoserver/first_project/main/templates/signup.html",
+		"/home/harmeet/dzangoserver/first_project/main/admin.py",
+		"/home/harmeet/dzangoserver/first_project/main/templates/ulogin.html",
+		"/home/harmeet/dzangoserver/first_project/main/migrations/0001_initial.py",
+		"/home/harmeet/dzangoserver/first_project/main/templates/hello.html",
+		"/home/harmeet/dzangoserver/first_project/first_project/urls.py",
+		"/home/harmeet/dzangoserver/first_project/first_project/settings.py",
+		"/home/harmeet/dzangoserver/first_project/db.sqlite3",
+		"/home/harmeet/dzangoserver/first_project/main/login.html",
+		"/home/harmeet/dzangoserver/first_project/main/templates/test.html",
+		"/home/harmeet/dzangoserver/first_project/main/__init__.py",
+		"/home/harmeet/dzangoserver/first_project/main/migrations/urls.py\\",
+		"/home/harmeet/.config/sublime-text-3/Packages/User/test.py",
+		"/home/harmeet/.config/sublime-text-3/Packages/User/python3.sublime-build"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/python3.sublime-build",
+	"project": "urls.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

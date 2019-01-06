@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        </head>
+        <body>
+           <b> AnswerForm </b>
+           <br>
+           <br>
+           <form action="" method = "POST">
+           	     {%  csrf_token  %}
+                 <input type="hidden" name ="user_id" value={{user_id}}>
+                 <input type="hidden" name ="question_id" value={{question_id}}>
+                 
+
+
+           	    {{ AnswerForm.as_p }}
+           	    <button type ="submit  answer">Submit</button>
+           	</form>
+            </body>
+    </html>

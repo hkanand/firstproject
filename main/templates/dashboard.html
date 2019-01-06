@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        </head>
+        <body>
+           <b>Hello{{user.name}} welcome to Question and Answer</b>
+           
+
+           <b>ADD QUESTION</b><a href="/question/?user_id= {{ user.id  }}">Add Question</a>
+           <br>
+           <b>My Ques</b> <a href= "/question/?user_id={{user.id}}">Add Question</a>
+           {% for question in questions %}
+               <br>
+               <br>
+               <span>{{question.id}}</span> <span>{{question.name}}</span> -by {{question.user.id}}<span> <a href= "/answer/?user_id={{user.id}}&question_id={{question.id}}">Add Answer</a></span> 
+              <ul>
+               	{% for answer in question.answer_set.all %}
+               	       <br>
+               	       <li><span>{{answer.id}}</span>
+               	       	<span>{{answer.answer}}</span>Answered by 
+               	       	<span>{{user.name}}</span>  </li>               
+               	       	 <li> <span>{{answer.upvotes}}</span>
+               	       <span><a href="/upvote/?user_id={{ user.id }}&answer_id={{ answer.id }}"><button type=  "UPVOTE">Upvote</button></a></span>
+               	       <span> {{answer.downvotes}} </span>
+               	 <span><a href="/downvote/?user_id={{user.id}}&answer_id={{ answer.id }}"><button type=  "DOWNVOTE">Downvotes</button></a></span></li>
+               	 {% endfor %} 
+               	 </ul> 
+               	 {%  endfor %}    
+               	  </body>
+    </html>
